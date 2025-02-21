@@ -8,6 +8,12 @@ cd auto-nex
 ```
 # containers.txt
 
+# install packages
+
+```
+apt install expect -y
+```
+
 add the number of containers in this list
 ```console
 nano containers.txt
