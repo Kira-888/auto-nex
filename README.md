@@ -36,6 +36,10 @@ systemctl restart cron
 ```
 check its status: its should be active(ignore any errors below)
 
+```
+systemctl status cron
+```
+
 what happens:
 
 this cron job checks the containers every minute if the container is live or not
