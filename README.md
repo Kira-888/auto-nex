@@ -27,7 +27,7 @@ select nano thats the easy editor
 
 Add this line at the bottom:
 ```console
-* * * * * /root/auto-nex/monitor_nexus.sh >> /root/nexus_log.txt 2>&1
+* * * * * /root/auto-nex/monitor_nexus.sh >> /root/auto-nex/nexus_log.txt 2>&1
 ```
 Restart the Cron Service
 
