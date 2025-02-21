@@ -6,13 +6,13 @@ cd
 git clone https://github.com/Kira-888/auto-nex.git
 cd auto-nex
 ```
-# containers.txt
 
 # install packages
 
-```
+```console
 apt install expect -y
 ```
+# containers.txt
 
 add the number of containers in this list
 ```console
