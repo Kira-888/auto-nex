@@ -1,7 +1,13 @@
 #!/usr/bin/expect
 
-# List of container names
-set container_list {"nexus-docker-1" "nexus-docker-2" "nexus-docker-3" "nexus-docker-4"}
+# Read container names from external file
+set container_list {}
+
+set file [open "/root/auto-nex/containers.txt" r]
+while {[gets $file line] >= 0} {
+    lappend container_list $line
+}
+close $file
 
 # Loop through each container and check if it's stopped
 foreach container_name $container_list {
