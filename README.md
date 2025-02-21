@@ -36,7 +36,7 @@ systemctl restart cron
 ```
 check its status: its should be active(ignore any errors below)
 
-```
+```console
 systemctl status cron
 ```
 
